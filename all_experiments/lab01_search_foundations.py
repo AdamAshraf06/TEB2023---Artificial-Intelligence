@@ -128,3 +128,6 @@ figure, _ = plot_route_paths(paths, coords, title="Route comparison: KUL to KEF"
 figure.savefig(RESULTS / "route_comparison.png", dpi=160, bbox_inches="tight")
 
 print("Saved:", sorted(p.name for p in RESULTS.iterdir()))
+
+
+
